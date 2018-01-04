@@ -24,6 +24,11 @@ body {
   margin: 0;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 header {
   border: 8px solid pink;
   border-radius: 0px 0px 25px 25px;
@@ -40,7 +45,7 @@ header nav {
 
 header h1 {
   font-family: "Emilys Candy", cursive;
-  font-size: 4em;
+  font-size: 1em;
   display: block;
   text-align: center;
   padding: .5rem;
@@ -54,7 +59,7 @@ header li {
   list-style-type: none;
   display: inline-block;
   text-align: center;
-  width: 24%;
+  width: 24.5%;
   background-color: #3c2415;
   border-radius: 6px;
 }
@@ -67,7 +72,7 @@ header nav a {
   color: #c3996b;
 }
 
-nav li:hover {
+nav li:hover, nav li a:hover {
   color: #3c2415;
   background-color: pink;
 }
@@ -81,6 +86,11 @@ h2 {
  font-family: "Emilys Candy", cursive;
  font-style: italic;
  font-size: 3em;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
 }
 
 main img {
@@ -110,9 +120,11 @@ main section:nth-child(2) img {
   text-align: center;
 }
 
-.link-card img {
+.wrapper {
   float: left;
   width: 25%;
+  max-height: 11em;
+  overflow: hidden;
 }
 
 .link-card2 {
@@ -136,6 +148,13 @@ footer {
   border-bottom: 8px solid pink;
   margin-top: .5em;
   margin-bottom: .5em;
+}
+
+@media only screen and (min-width: 20em) {
+
+  header h1 {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 25em) {
@@ -166,6 +185,16 @@ footer {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .div1 {
+  float: left;
+  width: 20%;
+  }
+
+  .div2 {
+    float: right;
+    width: 80%;
   }
 }
 
