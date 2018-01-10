@@ -257,7 +257,7 @@ small {
     width: 33.3333%;
     padding-left: .3em;
     padding-bottom: .3em;
-    }
+  }
 
   .rightimg {
     float: right;
@@ -267,19 +267,28 @@ small {
   }
 
   footer {
-    margin-top: 2em;
+    text-align: left;
+    background-color: #c3996b;
+    color: #3c2415;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-top: 8px solid pink;
+    border-bottom: 8px solid pink;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
   }
 
   .wrapper {
-  text-align: left;
-  border: 2px solid pink;
-  float: left;
-  width: 33.3333%;
-  max-height: 10em;
-  margin-top: 1em;
-  margin-left: .5em;
-  margin-right: 1em;
-  overflow: hidden;
+    text-align: left;
+    border: 2px solid pink;
+    float: left;
+    width: 33.3333%;
+    max-height: 10em;
+    margin-top: 1em;
+    margin-left: .5em;
+    margin-right: 1em;
+    overflow: hidden;
   }
 
   .img-flex {
@@ -295,10 +304,10 @@ small {
 
   address {
     position: absolute;
-    top: 2em;
-    left: 1em;
+    top: 2.8em;
+    left: 3em;
     font-family: "EB Garamond", serif;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #3c2415;
     font-style: normal;
     text-align: center;
@@ -312,6 +321,46 @@ small {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  header h1 {
+    font-family: "Emilys Candy", cursive;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    padding: .5em;
+    padding-bottom: .3em;
+    margin: 0;
+    color: #3c2415;
+  }
+
+  .div2 {
+    padding: .3em;
+    padding-top: .7em;
+    padding-bottom: .5em;
+    font-size: 1em;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    color: #3c2415;
+  }
+
+  section p {
+    font-family: "EB Garamond", serif;
+    font-size: 1.2em;
+    text-align: left;
+    padding-top: .3em;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: "Emilys Candy", cursive;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #3c2415;
+    margin-top: .2em;
+    margin-bottom: .2em;
+    padding: 0;
   }
 
   .rightimg {
@@ -329,24 +378,25 @@ small {
   }
 
   .wrapper {
-  text-align: left;
-  border: 2px solid pink;
-  float: left;
-  width: 20%;
-  max-height: 10em;
-  margin-top: 1em;
-  margin-left: .5em;
-  margin-right: 1em;
-  overflow: hidden;
+    text-align: left;
+    border: 2px solid pink;
+    float: left;
+    width: 33.3333%;
+    max-height: 10em;
+    margin-top: 1em;
+    margin-left: .5em;
+    margin-right: 1em;
+    overflow: hidden;
   }
 
   .product {
     margin-top: 3em;
     margin-bottom: 3em;
+    font-size: 120%;
   }
 
   footer {
-    margin-top: 3em;
+    margin-top: 4em;
   }
 }
 
@@ -357,7 +407,7 @@ small {
     line-height: 1.5;
   }
 
-  .div1 {
+  header {
     float: left;
     width: 20%;
   }
@@ -366,6 +416,27 @@ small {
     float: right;
     width: 80%;
   }
+
+  address {
+    position: absolute;
+    top: 2.8em;
+    left: 3em;
+    font-size: 3em;
+
+  }
+
+  footer {
+    text-align: left;
+    background-color: #c3996b;
+    color: #3c2415;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-top: 8px solid pink;
+    border-bottom: 8px solid pink;
+    margin-top: 4em;
+    margin-bottom: .5em;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -373,5 +444,4 @@ small {
   html {
     font-size: 130%;
   }
-
 }
